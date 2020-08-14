@@ -28,6 +28,7 @@ spec:
         - name: MYSQL_USER
           value: sudheesh
         image: mysql:5
+        args: ["--ignore-db-dir=lost+found"]
         name: mysqlquotes
         ports:
         - containerPort: 3306
