@@ -29,7 +29,6 @@ spec:
           value: sudheesh
         image: mysql:5
         name: mysqlportfolios
-        args: "--ignore-db-dir=lost+found" #CHANGE
         ports:
         - containerPort: 3306
         volumeMounts:
