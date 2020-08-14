@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: daytrader-quotes
-        image: vayalankatil/daytrader-quotes:4.0.18
+        image: vayalankatil/daytrader-quotes:4.0.19
         imagePullPolicy: Always
         ports:
         - containerPort: 4443
